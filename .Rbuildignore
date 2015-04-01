@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.md$
+^NEWS\.md$
+^R/package_setup\.R$
+^cran-comments\.md$
