@@ -1,4 +1,4 @@
-# stcm 0.1
+# stcm 0.1.0
 
 * Initial release!
 

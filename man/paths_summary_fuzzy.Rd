@@ -37,7 +37,7 @@ and causal paths.
 data(hh)
 
 # Run function
-a<-paths_summary_fuzzy(data = hh, case.ids = "Country", outcome = "success", size.warn = FALSE)
+a<-paths_summary_fuzzy(data = hh, case.ids = "Country", outcome = "success", sig.digits = 1)
 
 # Get results
 a$n.fuzzy.paths.obs

@@ -2,15 +2,13 @@ Package: stcm
 Title: Tools for Inference with Set-Theoretic Comparative Methods
 Authors@R: person("Chris", "Krogslund", role = c("aut", "cre"),
     email = "ckrogslund@berkeley.edu")
-Version: 0.1
+Version: 0.1.0
 Date: 2015-04-01
-Description: stcm provides a number of functions for carrying out
+Description: Provides a number of functions for carrying out
     inference with set-theoretic comparative methods, including
     facilities for examining causal paths, assessing the sensitivity
-    of results to measurement and model specification error, performing
-    Random Forest Comparative Analysis (RFCA) as proposed by 
-    Krogslund & Michel (2014), as well as interfacing with other 
-    predictive models.
+    of results to measurement and model specification error, 
+    and performing Random Forest Comparative Analysis.
 Depends:
     R (>= 3.1.1),
 License: GPL (>= 3)

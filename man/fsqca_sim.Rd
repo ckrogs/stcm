@@ -55,18 +55,6 @@ data(hh)
 hh<-hh[,-which(colnames(hh)=="Country")]
 
 # Run function
-a<-fsqca_sim(data = hh, outcome = "success", plot = TRUE)
-
-# View results plot
-a$plot
-
-# Get unique solutions and their legend labels
-a$legend
-
-# Get table of solutions (note: truncated to first 50 rows)
-a$results[1:50,]
-
-# Increase the number of replications
-#'a<-fsqca_sim(data = hh, outcome = "success", reps=1000, plot = TRUE)
+fsqca_sim(data = hh, outcome = "success", reps=50, plot = TRUE)
 }
 

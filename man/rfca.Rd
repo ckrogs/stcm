@@ -56,13 +56,5 @@ data(hh)
 # Run RFCA
 a<-rfca(data = hh, outcome = "success", case.ids = "Country", fuzzy = TRUE,
 ntree = 100, mtry = 5)
-
-# Increase the number of trees grown and max outvariables tried at each split
-a<-rfca(data = hh, outcome = "success", case.ids = "Country", fuzzy = TRUE,
-ntree = 10000)
-
-# Repeat above with QCA style printing
-a<-rfca(data = hh, outcome = "success", case.ids = "Country", fuzzy = TRUE,
-ntree = 10000, qca.style=TRUE)
 }
 
