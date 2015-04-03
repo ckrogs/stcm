@@ -6,6 +6,12 @@ The **stcm** package introduces a number of tools that are designed to help user
 
 ## Installation
 
+To download from CRAN:
+
+```R
+install.packages("stcm")
+```
+
 To download from github:
 
 ```R
