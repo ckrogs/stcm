@@ -2,8 +2,8 @@ Package: stcm
 Title: Tools for Inference with Set-Theoretic Comparative Methods
 Authors@R: person("Chris", "Krogslund", role = c("aut", "cre"),
     email = "ckrogslund@berkeley.edu")
-Version: 0.1.0
-Date: 2015-04-01
+Version: 0.1.1
+Date: 2015-06-28
 Description: Provides a number of functions for carrying out
     inference with set-theoretic comparative methods, including
     facilities for examining causal paths, assessing the sensitivity
@@ -21,7 +21,11 @@ Imports:
     randomForest,
     caret,
     dendextend,
-    magrittr
+    magrittr,
+    stats,
+    utils,
+    graphics,
+    grDevices
 Maintainer: Chris Krogslund <ckrogslund@berkeley.edu>
 NeedsCompilation: no
 Repository: github
