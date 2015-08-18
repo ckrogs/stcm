@@ -19,3 +19,6 @@ To download from github:
 devtools::install_github("ckrogs/stcm")
 ```
 
+## Vignette
+
+A draft vignette for **stcm** is available [here](https://github.com/ckrogs/stcm/blob/master/vignettes/stcm_vignette_draft.pdf) (pdf).
